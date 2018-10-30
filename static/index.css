@@ -1,0 +1,311 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper{
+	height:1880px;
+}
+
+
+
+
+
+header{
+	border:0px solid;
+	height:70px;
+	background-color:white;
+}
+
+#logo{
+	border:0px solid;
+	height:80px;
+	background-image:url(./images/logo1.png);
+	background-size: 100% 100%;
+	margin-top: -8px;
+}
+
+#navbar{
+	border:0px solid;
+	height:80px;
+}
+#navList{
+	margin-top: 3%;
+}
+#navList li{
+	display: inline-block;
+	color: rgba(0, 0, 0, 0.6);
+	margin-left: 10%;
+	font-weight: 600;
+	font-family: 'Handlee', cursive;
+	font-size: 18px;
+	cursor: pointer;
+}
+#navList li:hover{
+	color: #8E24AA;
+}
+
+
+#loginText{
+	border-right: 1px solid  rgba(0, 0, 0, 0.4);
+	border-right-width: 2px;
+	color: rgba(0, 0, 0, 0.7);
+	margin-top:2%;
+	font-size: 20px;
+	font-family: 'Fjalla One', sans-serif; 
+	cursor: pointer;
+	text-align: right;
+}
+#loginText:hover{
+	color: #8E24AA;
+	font-size: 21px;
+}
+
+#loginBtn{
+	border:2px solid rgba(155, 39, 176, 0.2);
+	border-radius: 20px;
+	height:30px;
+	margin-top: 1.9%;
+	margin-left: 3%;
+	font-size: 16px;
+	font-family: 'Fjalla One', sans-serif;
+	color: white;
+	background-color:rgba(155, 39, 176, 0.8); 
+}
+#loginBtn:hover{
+	border:2px solid rgba(155, 39, 176, 0.8);
+	color: rgba(155, 39, 176, 0.8);
+	background-color: white; 
+	transition: 0.5s;
+}
+
+
+
+
+
+#section1{
+	border:0px solid;
+	height:500px;
+	background-image:url(./images/background_image.jpg);
+	background-size: 100% 100%;
+}
+
+#subsec1{
+	height:500px;
+	background-color:rgba(141, 36, 170, 0.4);
+}
+
+#sec1head1{
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Fjalla One', sans-serif;
+	margin-top: 6%;	
+	transition: 1.2s;
+}
+#sec1head2{
+	color: white;
+	text-align: center;
+	font-size: 36px;
+	font-family: 'Handlee', cursive;
+	margin-top: 1%;	
+}
+#sec1para{
+	color: white;
+	text-align: center;	
+	font-size: 26px;
+	font-family: 'Handlee', cursive;
+	margin-top: 1%;	
+}
+
+#sec1Btn{
+	border:2px solid white;
+	border-radius: 30px;
+	height:60px;
+	margin-top: 2%;
+	font-size: 24px;
+	font-family: 'Handlee', cursive;
+	color: white;
+	background-color:rgba(155, 39, 176, 0.3); 
+}
+#sec1Btn:hover{
+	background-color:rgba(155, 39, 176, 0.5); 
+	transition: 0.3s;
+}
+
+
+
+
+
+#section2{
+	height:500px;
+}
+
+#sec2head1{
+	color: rgba(0, 0, 0, 0.774);
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Fjalla One', sans-serif;
+	margin-top: 4%;	
+}
+#sec2head2{
+	color: rgba(0, 0, 0, 0.767);
+	text-align: center;
+	font-size: 32px;
+	font-family: 'Handlee', cursive;
+	margin-top: 1%;	
+}
+
+#sec2div{
+	height: 250px;
+	margin-top: 14%;
+}
+
+#sec2div1{
+	height: 250px;
+	margin-left: -1px;
+}
+
+#sec2div2,#sec2div3,#sec2div4{
+	height: 250px;
+}
+
+
+
+#div1icon,#div2icon,#div3icon,#div4icon{
+	font-size: 60px;
+	color: rgba(141, 36, 170, 0.849);
+}
+
+#div1heading,#div2heading,#div3heading,#div4heading{
+	font-size: 17px;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+}
+
+#div1para,#div2para,#div3para,#div4para{
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 15px;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 35px;
+	margin-left: 4%;
+}
+
+
+
+
+
+#section3{
+	height:180px;
+	background-color: rgba(141, 36, 170, 0.8);
+}
+
+#sec3headDiv{
+	height: 110px;
+	margin-top: 3%;
+}
+#sec3headDiv h1{
+	font-size: 30px;
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+	line-height: 40px;
+}
+
+#sec3Btn{
+	border:2px solid white;
+	border-radius: 30px;
+	height:60px;
+	margin-top: 5%;
+	font-size: 24px;
+	font-family: 'Handlee', cursive;
+	color: white;
+	background-color:rgba(155, 39, 176, 0.3); 
+}
+#sec3Btn:hover{
+	background-color:rgba(155, 39, 176, 0.6); 
+	transition: 0.3s;
+}
+
+
+
+
+
+#section4{
+	height:450px;
+}
+#sec4heading{
+	color: rgba(0, 0, 0, 0.8);
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Handlee', cursive;
+	margin-top: 6%;	
+}
+#sec4para{
+	color: rgba(0, 0, 0, 0.6);
+	text-align: center;	
+	font-size: 22px;
+	font-family: 'Ubuntu', sans-serif;
+	margin-top: 3%;	
+}
+#sec4Btn{
+	border:2px solid rgba(155, 39, 176, 0.8);
+	border-radius: 30px;
+	height:60px;
+	margin-top: 5%;
+	font-size: 26px;
+	font-family: 'Handlee', cursive;
+	color: rgba(155, 39, 176, 0.8);
+	background-color:white; 
+}
+#sec4Btn:hover{
+	border:2px solid white;
+	color: white;
+	background-color:rgba(155, 39, 176, 0.6); 
+	transition: 0.3s;
+}
+
+
+
+
+footer{
+	height:180px;
+	background-image:url(../static/img/a.jpg);
+	background-size: 100% 220%;
+}
+
+#subFooter{
+	height:180px;
+	background-color:rgba(66, 66, 66, 0.795);
+}
+
+#footerPara{
+	color: white;
+	font-size: 22px;
+	font-family: 'Handlee', cursive;
+	margin-top: 6%;	
+}
+#footerPara a{
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+	font-size: 20px;
+	font-family: 'Merriweather', serif;
+}
+#footerPara a:hover{
+	text-decoration: none;
+	color: rgb(135, 18, 158);
+}
+
+#footerIconsDiv{
+	height:40px;
+	margin-top: 6%;	
+}
+.footerIcons{
+	cursor: pointer;
+	font-size: 22px;
+	color:rgba(255, 255, 255, 0.829);
+	margin-left: 6%;
+}
+.footerIcons:hover{
+	color:rgba(135, 18, 158, 0.829);
+}
